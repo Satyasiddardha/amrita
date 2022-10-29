@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="v j srikar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 10:54:41 AM"/>
+        <attribute name="created" value="diBqIHNyaWthcjtERVNLVE9QLUpMOTVCVVU7MjAyMi0xMC0yODswOTo0NzozOSBBTTszMjk3"/>
+        <attribute name="edited" value="diBqIHNyaWthcjtERVNLVE9QLUpMOTVCVVU7MjAyMi0xMC0yODsxMDo1NDo0MSBBTTsxOzMzODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <input variable="name"/>
+            <declare name="rollno" type="Integer" array="False" size=""/>
+            <input variable="rollno"/>
+            <declare name="address" type="String" array="False" size=""/>
+            <input variable="address"/>
+            <declare name="bloodgroup" type="String" array="False" size=""/>
+            <input variable="bloodgroup"/>
+            <declare name="phnnum" type="Integer" array="False" size=""/>
+            <input variable="phnnum"/>
+            <declare name="departmentassigned" type="String" array="False" size=""/>
+            <input variable="departmentassigned"/>
+            <declare name="sem" type="String" array="False" size=""/>
+            <input variable="sem"/>
+            <declare name="firstsubcode" type="Integer" array="False" size=""/>
+            <input variable="firstsubcode"/>
+            <declare name="secondsubcode" type="Integer" array="False" size=""/>
+            <input variable="secondsubcode"/>
+            <declare name="firstsubmarks" type="Integer" array="False" size=""/>
+            <input variable="firstsubmarks"/>
+            <declare name="secondsubmarks" type="Integer" array="False" size=""/>
+            <input variable="secondsubmarks"/>
+            <declare name="totalmarks" type="Integer" array="False" size=""/>
+            <assign variable="totalmarks" expression="firstsubmarks+secondsubmarks"/>
+            <declare name="avg" type="Integer" array="False" size=""/>
+            <assign variable="avg" expression="totalmarks/2"/>
+            <output expression="&quot;enteryourname &quot; &amp;name&amp;&#13;&#10;&#13;&#10;&quot;enteryourrollno &quot; &amp;rollno&amp;&#13;&#10;&#13;&#10;&quot;enteryouraddress&quot; &amp;address&amp;&#13;&#10;&quot;enteryourbloodgroup&quot; &amp;bloodgroup&amp;&#13;&#10;&quot;enteryourphnnum&quot; &amp;phnnum&amp;&#13;&#10;&quot;enteryoudepartmentassigned&quot; &amp;departmentassigned&amp;&#13;&#10;&quot;enteryoursem&quot;&amp;sem&amp;&#13;&#10;&quot;enteryourfirstsubcode&quot;&amp;firstsubcode&amp;&#13;&#10;&quot;enteryoursecondsubcode&quot;&amp;secondsubcode&amp;&#13;&#10;&quot;enteryourfirstsubmarks&quot;&amp;firstsubmarks&amp;&#13;&#10;&quot;enteryourtotalmarks&quot;&amp;totalmarks&amp;&#13;&#10;&quot;enteryouravg&quot;&amp;avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
